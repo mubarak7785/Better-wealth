@@ -4,7 +4,8 @@ HOW TO RU PROJECT
 
 $ Open GitBash
 
-$ git clone https://github.com/DevShakti78/tribe_assignment.git
+$ git clone https://github.com/mubarak7785/Better-wealth.git
+
 
 $ cd server
 
