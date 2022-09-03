@@ -40,10 +40,13 @@ const Signup = () => {
   return (
     <div className='mycard'>
     <div className="card auth-card">
-    <img className='myimage' src="https://images-platform.99static.com//X6c5uQCTjlf4soSdRd71k3C0Vz8=/173x177:1288x1292/fit-in/500x500/99designs-contests-attachments/57/57580/attachment_57580284" alt="" />
+    
       <input type="text" placeholder='name' value={name} onChange={(e)=>setName(e.target.value)} />
+      <br />
       <input type="text" placeholder='email' value={email} onChange={(e)=>setEmail(e.target.value)} />
+      <br />
       <input type="text" placeholder='password' value={password} onChange={(e)=>setPassword(e.target.value)} />
+      <br />
       <button onClick={()=>PostData()} className="btn waves-effect waves-light #4a148c purple darken-4" >Register
 </button>
 <h5>
